@@ -152,7 +152,7 @@
 &kp Q          &kp W         &kp F         &kp P           &kp B        &kp J         &kp L           &lt 4 U       &kp Y               &kp SEMI
 &hm LCTRL A    &hm LGUI R    &hm LALT S    &hs LSHIFT T    &kp G        &lt 5 M       &hs RSHIFT N    &hm RALT E    &hm RGUI I          &hm RCTRL O
 &kp Z          &kp X         &kp C         &kp D           &kp V        &kp K         &kp H           &kp COMMA     &kp DOT             &kp FSLH
-               &kp K_MUTE    &kp DEL       &lt 1 RET       &lt 3 TAB    &lt 4 BSPC    &lt 2 SPACE     &kp SQT       &kp C_PLAY_PAUSE
+                             &kp DEL       &lt 1 RET       &lt 3 TAB    &lt 4 BSPC    &lt 2 SPACE     &kp SQT
             >;
         };
 
@@ -162,7 +162,7 @@
 &kp ESC        &kp PG_UP        &kp UP      &kp PG_DN                 &trans               &kp ASTRK    &kp N7       &kp N8     &kp N9    &kp MINUS
 &kp HOME       &kp LEFT         &kp DOWN    &kp RIGHT                 &kp END              &kp FSLH     &kp N4       &kp N5     &kp N6    &kp PLUS
 &kp LG(TAB)    &kp LG(GRAVE)    &trans      &kp LG(LS(LEFT_ARROW))    &kp LG(LS(RIGHT))    &kp EQUAL    &kp N1       &kp N2     &kp N3    &kp N0
-               &trans           &trans      &trans                    &kp TAB              &kp BSPC     &kp SPACE    &kp DOT    &trans
+                                &trans      &trans                    &kp TAB              &kp BSPC     &kp SPACE    &kp DOT
             >;
         };
 
@@ -172,7 +172,7 @@
 &kp EXCL     &kp AT       &kp HASH           &kp DLLR    &kp PRCNT     &kp CARET               &kp AMPS          &kp ASTRK      &kp UNDER    &kp EQUAL
 &kp MINUS    &kp LBKT     &kp LBRC           &kp LPAR    &kp LT        &kp GT                  &kp RPAR          &kp RBRC       &kp RBKT     &kp PLUS
 &kp GRAVE    &kp TILDE    &kp LC(LS(TAB))    &trans      &caps_word    &kp LG(LS(NUMBER_4))    &kp LG(LS(N5))    &kp LC(TAB)    &trans       &kp BSLH
-             &trans       &trans             &kp RET     &kp DEL       &kp BSPC                &trans            &trans         &trans
+                          &trans             &kp RET     &kp DEL       &kp BSPC                &trans            &trans
             >;
         };
 
@@ -182,7 +182,7 @@
 &bootloader     &kp LS(PG_UP)    &kp LS(UP)      &kp LS(PG_DN)    &trans         &kp C_MUTE          &kp F7    &kp F8       &kp F9    &kp F10
 &kp LS(HOME)    &kp LS(LEFT)     &kp LS(DOWN)    &kp LS(RIGHT)    &kp LS(END)    &kp K_VOL_UP        &kp F4    &kp F5       &kp F6    &kp F11
 &bt BT_SEL 3    &bt BT_SEL 2     &bt BT_SEL 1    &bt BT_SEL 0     &bt BT_CLR     &kp K_VOL_DN        &kp F1    &kp F2       &kp F3    &kp F12
-                &trans           &out OUT_USB    &out OUT_BLE     &trans         &kp C_PLAY_PAUSE    &trans    &kp SPACE    &trans
+                                 &out OUT_USB    &out OUT_BLE     &trans         &kp C_PLAY_PAUSE    &trans    &kp SPACE
             >;
         };
 
@@ -192,7 +192,7 @@
 &trans    &trans    &trans    &trans    &trans    &trans        &bt BT_PRV      &bt BT_NXT      &trans          &trans
 &trans    &trans    &trans    &trans    &trans    &trans        &trans          &trans          &trans          &trans
 &trans    &trans    &trans    &trans    &trans    &bt BT_CLR    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3
-          &trans    &trans    &trans    &trans    &trans        &out OUT_BLE    &out OUT_USB    &trans
+                    &trans    &trans    &trans    &trans        &out OUT_BLE    &out OUT_USB
             >;
         };
 
@@ -202,7 +202,7 @@
 &bootloader    &mkp RCLK         &mmv MOVE_UP      &mkp LCLK          &mkp MB5          &trans             &trans            &trans    &trans    &trans
 &trans         &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_RIGHT    &mkp MB4          &trans             &trans            &trans    &trans    &trans
 &trans         &trans            &trans            &mkp MCLK          &trans            &trans             &trans            &trans    &trans    &trans
-               &trans            &trans            &msc SCRL_UP       &msc SCRL_LEFT    &msc SCRL_RIGHT    &msc SCRL_DOWN    &trans    &trans
+                                 &trans            &msc SCRL_UP       &msc SCRL_LEFT    &msc SCRL_RIGHT    &msc SCRL_DOWN    &trans
             >;
         };
     };

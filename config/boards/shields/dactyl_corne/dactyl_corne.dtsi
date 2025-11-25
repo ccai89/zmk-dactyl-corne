@@ -7,6 +7,11 @@
 #include "dactyl_corne_common.dtsi"
 
 / {
+    key_physical_attrs: key_physical_attrs {
+        compatible = "zmk,physical-layout-position-map";
+        complete;
+    };
+    
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
